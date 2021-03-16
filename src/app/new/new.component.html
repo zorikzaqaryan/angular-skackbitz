@@ -1,0 +1,9 @@
+<p>
+  new works!
+</p>
+
+
+<div *ngFor="let el of todos ; let i = index">
+  <p [ngClass]="i%2 === 0 ? 'red' : 'yellow' "   > {{el.title | uppercase }} {{i}}</p>
+
+</div>

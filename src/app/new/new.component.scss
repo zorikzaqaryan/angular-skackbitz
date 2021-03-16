@@ -1,0 +1,16 @@
+//@import "./styles/variables";
+$red-color: red;
+$yellow-color: yellow;
+
+p {
+  font-family: Lato;
+  //  color: $test-color;
+}
+
+.red {
+  color: $red-color;
+}
+
+.yellow {
+  color: $yellow-color;
+}
